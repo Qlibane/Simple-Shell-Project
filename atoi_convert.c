@@ -30,11 +30,11 @@ int is_delim(char c, char *delim)
 }
 
 /**
- *_isalpha - checks for an alphabetic character
-
- *@c: The character to check
-
- *Return: 1 if c is alphabetic, 0 if not
+ * _isalpha - checks for alphabetic character
+ *
+ * @c: The character to check
+ *
+ * Return: 1 if c is alphabetic, 0 if not
  */
 
 int _isalpha(int c)
@@ -46,11 +46,11 @@ int _isalpha(int c)
 }
 
 /**
- *_atoi - converts a string to integer
-
- *@s: the string to convert
-
- *Return: 0 if no numbers in string, converted number if otherwise
+ * _atoi - converts a string to integer
+ *
+ * @s: the string to convert
+ *
+ * Return: 0 if no numbers in string, converted number if otherwise
  */
 
 int _atoi(char *s)
