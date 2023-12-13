@@ -5,7 +5,7 @@
  *
  * @info: struct address
  *
- * Return: 1 if interactive mode, 0 otherwise
+ * Return: 1 if mode is interactive, 0 if not
  */
 int interactive(info_t *info)
 {
@@ -19,7 +19,7 @@ int interactive(info_t *info)
  *
  * @delim: the string for delimeter
  *
- * Return: 1 if delimeter, 0 if not
+ * Return: 1 if delimeter, 0 otherwise
  */
 int is_delim(char c, char *delim)
 {
@@ -48,7 +48,7 @@ int _isalpha(int c)
 /**
  * _atoi - converts a string to integer
  *
- * @s: the string to convert
+ * @s: the string to be converted
  *
  * Return: 0 if no numbers in string, converted number if otherwise
  */
