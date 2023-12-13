@@ -8,7 +8,7 @@
  *
  * @p: address of current position in buf
  *
- * Return: 1 if chain delimeter, 0 otherwise
+ * Return: 1 if chain delimeter, 0 if not
  */
 int is_chain(info_t *info, char *buf, size_t *p)
 {
@@ -45,7 +45,6 @@ int is_chain(info_t *info, char *buf, size_t *p)
  * @buf: the char buffer
  *
  * @p: address of current position in buf
- 
  * @i: starting position in buf
  *
  * @len: length of buf
