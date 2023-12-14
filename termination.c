@@ -2,11 +2,11 @@
 /**
  * *_strncpy - copies a string
  *
- * @dest: the destination where string is to be copied
+ * @dest: the destination for copying string
  *
  * @src: the source string
  *
- * @n: the amount of characters to be copied
+ * @n: the amount of copied characters
  *
  * Return: the concatenated string
  */
